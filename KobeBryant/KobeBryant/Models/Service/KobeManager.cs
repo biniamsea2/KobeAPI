@@ -1,4 +1,6 @@
-﻿using KobeBryant.Models.Interface;
+﻿using KobeBryant.Data;
+using KobeBryant.Models.Interface;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,19 +10,26 @@ namespace KobeBryant.Models.Service
 {
     public class KobeManager : IKobe
     {
-        public Task<List<Kobe>> GetAllRecords()
+        private KobeBryantDbContext _context;
+
+        public KobeManager(KobeBryantDbContext context)
         {
-            throw new NotImplementedException();
+            _context = context;
         }
 
-        public Task<Kobe> GetSinlgeRandomRecord(int id)
+
+        public async Task<List<Kobe>> GetAllRecords()
         {
-            throw new NotImplementedException();
+            List<Kobe> kbRecords = await _context.Records.ToListAsync();
+            return kbRecords;
         }
 
-        public Task<Kobe> GetSinlgeRecordById(int id)
-        {
-            throw new NotImplementedException();
-        }
+
+        public async Task<Kobe> GetSinlgeRandomRecord(int id) => await _context.Records.FirstOrDefaultAsync(kb => kb.ID == id);
+
+
+        public async Task<Kobe> GetSinlgeRecordById(int id) => await _context.Records.FirstOrDefaultAsync(kb => kb.ID == id);
+
+
     }
 }

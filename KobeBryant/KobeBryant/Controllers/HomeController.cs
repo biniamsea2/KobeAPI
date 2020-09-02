@@ -11,7 +11,20 @@ namespace KobeBryant.Controllers
     [ApiController]
     public class HomeController : ControllerBase
     {
-        public IActionResult Get()
+        [HttpGet]
+        public IActionResult GetOneRandomRecord()
+        {
+            return Ok("Hello World!");
+        }
+
+        [HttpGet]
+        public IActionResult GetOneRecordById()
+        {
+            return Ok("Hello World!");
+        }
+
+        [HttpGet]
+        public IActionResult GetAllRecords()
         {
             return Ok("Hello World!");
         }
