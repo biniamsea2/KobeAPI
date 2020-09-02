@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using KobeBryant.Models.Interface;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,22 +12,31 @@ namespace KobeBryant.Controllers
     [ApiController]
     public class HomeController : ControllerBase
     {
-        [HttpGet]
-        public IActionResult GetOneRandomRecord()
+        private readonly IKobe _context;
+        private Random randomNum = new Random();
+
+        public HomeController(IKobe kobe)
         {
-            return Ok("Hello World!");
+            _context = kobe;
         }
 
         [HttpGet]
-        public IActionResult GetOneRecordById()
+        public async Task <IActionResult> GetOneRandomRecord()
         {
-            return Ok("Hello World!");
+            int id = randomNum.Next(1, 23);
+            return Ok(await _context.GetSinlgeRandomRecord(id));
         }
 
-        [HttpGet]
-        public IActionResult GetAllRecords()
+        [HttpGet("{id}")]
+        public async Task<ActionResult> GetOneRecordById(int id)
         {
-            return Ok("Hello World!");
+            return Ok(await _context.GetSinlgeRecordById(id));
+        }
+
+        [HttpGet("all")]
+        public async Task<IActionResult> GetAllRecords()
+        {
+            return Ok(await _context.GetAllRecords());
         }
     }
 }
