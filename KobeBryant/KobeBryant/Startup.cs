@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using KobeBryant.Data;
+using KobeBryant.Models.Interface;
+using KobeBryant.Models.Service;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -30,6 +32,8 @@ namespace KobeBryant
             services.AddControllers();
             services.AddDbContext<KobeBryantDbContext>(options =>
      options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddTransient<IKobe, KobeManager>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
