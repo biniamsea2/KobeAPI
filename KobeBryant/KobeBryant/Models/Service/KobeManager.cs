@@ -24,9 +24,7 @@ namespace KobeBryant.Models.Service
             return kbRecords;
         }
 
-
         public async Task<Kobe> GetSinlgeRandomRecord(int id) => await _context.Records.FirstOrDefaultAsync(kb => kb.ID == id);
-
 
         public async Task<Kobe> GetSinlgeRecordById(int id) => await _context.Records.FirstOrDefaultAsync(kb => kb.ID == id);
 
