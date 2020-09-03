@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace KobeBryant.Data
 {
+    /// <summary>
+    /// Created our database and seeded it:
+    /// </summary>
     public class KobeBryantDbContext : DbContext
     {
         public KobeBryantDbContext(DbContextOptions<KobeBryantDbContext> options) : base(options)
@@ -178,6 +181,7 @@ namespace KobeBryant.Data
                 }
             );
         }
+        //table
         public DbSet<Kobe> Records { get; set; }
     }
 }

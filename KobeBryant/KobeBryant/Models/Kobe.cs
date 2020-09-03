@@ -7,6 +7,7 @@ namespace KobeBryant.Models
 {
     public class Kobe
     {
+        //properties created for each row in our "record" table
         public int ID { get; set; }
         public string Name { get; set; }
         public string Team { get; set; }

@@ -30,9 +30,10 @@ namespace KobeBryant
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            //register our DbContext
             services.AddDbContext<KobeBryantDbContext>(options =>
      options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-
+            //register service:
             services.AddTransient<IKobe, KobeManager>();
         }
 
