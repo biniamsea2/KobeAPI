@@ -49,7 +49,7 @@ Then select and open ```KobeBryant.sln```
 ### Visuals
 
 ### Entity Relationship Diagram
-![Image 1](https://github.com/biniamsea2/Async-Inn/blob/master/AsyncInn2.png)
+![Image 1]()
 ### Application Home Page
 ![Image 1]()
 ### View of All Hotels
@@ -70,5 +70,3 @@ Then select and open ```KobeBryant.sln```
 The "Records" table in our KobeDB database consists of all records currently held by Kobe Bryant. Each row has information regarding a primary ID key, name, Team, and Record. address, phone number, and the numer of rooms. 
 
 ---
-
-------------------------------
