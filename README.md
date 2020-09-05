@@ -53,22 +53,13 @@ Then select and open ```KobeBryant.sln```
 
 ### Visuals
 
-### Entity Relationship Diagram
+### Get random record
 ![Image 1]()
-### Application Home Page
+### Get record based on ID
 ![Image 1]()
-### View of All Hotels
+### Get all records
 ![Image 1]()
-### Editing a Hotel
-![Image 1]()
-### Deleting a Hotel
-![Image 1]()
-### View of All Amenities
-![Image 1]()
-### View of All Rooms
-![Image 1]()
-### Delete a Room
-![Image 1]()
+
 
 ---
 ### Records Table:  
