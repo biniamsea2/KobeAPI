@@ -4,7 +4,12 @@
 ----
 
 ## Program Summary 
-rfkr
+In honor of the late great Kobe Bryant I decided to create a Kobe Bryant API for Mamba Day. This application was created using Visual Studio and written in C#. This application has three get methods:  
+
+[HttpGet] Gets one random Kobe Bryant record from the database
+[HttpGet("{id}")] Gets one Kobe Bryant record from the database based on the ID given from the user. 
+[HttpGet("all")] Grabs all the Kobe Bryant records from the database.
+
 
 ## Application Specifications
 ###### This application includes the following:  
