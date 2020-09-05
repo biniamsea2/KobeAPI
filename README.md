@@ -69,4 +69,6 @@ Then select and open ```KobeBryant.sln```
 ### Records Table:  
 The "Records" table in our KobeDB database consists of all records currently held by Kobe Bryant. Each row has information regarding a primary ID key, name, Team, and Record. address, phone number, and the numer of rooms. 
 
+Records found at: https://en.wikipedia.org/wiki/List_of_career_achievements_by_Kobe_Bryant  
+
 ---
