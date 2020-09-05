@@ -51,19 +51,19 @@ Then select and open ```KobeBryant.sln```
 ### Entity Relationship Diagram
 ![Image 1](https://github.com/biniamsea2/Async-Inn/blob/master/AsyncInn2.png)
 ### Application Home Page
-![Image 1](https://github.com/biniamsea2/Async-Inn/blob/master/AyncINN/Screenshot%20(57).png)
+![Image 1]()
 ### View of All Hotels
-![Image 1](https://github.com/biniamsea2/Async-Inn/blob/master/AyncINN/Screenshot%20(58).png)
+![Image 1]()
 ### Editing a Hotel
-![Image 1](https://github.com/biniamsea2/Async-Inn/blob/master/AyncINN/Screenshot%20(62).png)
+![Image 1]()
 ### Deleting a Hotel
-![Image 1](https://github.com/biniamsea2/Async-Inn/blob/master/AyncINN/Screenshot%20(61).png)
+![Image 1]()
 ### View of All Amenities
-![Image 1](https://github.com/biniamsea2/Async-Inn/blob/master/AyncINN/Screenshot%20(60).png)
+![Image 1]()
 ### View of All Rooms
-![Image 1](https://github.com/biniamsea2/Async-Inn/blob/master/AyncINN/Screenshot%20(63).png)
+![Image 1]()
 ### Delete a Room
-![Image 1](https://github.com/biniamsea2/Async-Inn/blob/master/AyncINN/Screenshot%20(65).png)
+![Image 1]()
 
 ---
 ### Records Table:  
