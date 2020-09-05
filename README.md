@@ -54,12 +54,11 @@ Then select and open ```KobeBryant.sln```
 ### Visuals
 
 ### Get random record
-![Image 1]()
+![Image 1](https://github.com/biniamsea2/KobeAPI/blob/master/Screenshot%20(4).png)
 ### Get record based on ID
-![Image 1]()
+![Image 1](https://github.com/biniamsea2/KobeAPI/blob/master/Screenshot%20(5).png)
 ### Get all records
-![Image 1]()
-
+![Image 1](https://github.com/biniamsea2/KobeAPI/blob/master/Screenshot%20(6).png)
 
 ---
 ### Records Table:  
