@@ -48,6 +48,7 @@ namespace KobeBryant
             app.UseHttpsRedirection();
 
             app.UseRouting();
+            app.UseStaticFiles();
 
             app.UseAuthorization();
 
