@@ -10,7 +10,6 @@ In honor of the late great Kobe Bryant I decided to create a Kobe Bryant API for
 - [HttpGet("{id}")] Gets one Kobe Bryant record from the database based on the ID given from the user.   
 - [HttpGet("all")] Grabs all the Kobe Bryant records from the database.  
 
-
 ## Application Specifications
 ###### This application includes the following:  
 
