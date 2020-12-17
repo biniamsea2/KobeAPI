@@ -1,8 +1,7 @@
 # KobeAPI  
 *Author: Biniam Tesfamariam*
 
-----
-
+----  
 ## Program Summary 
 In honor of the late great Kobe Bryant I decided to create a Kobe Bryant API for Mamba Day. This application was created using Visual Studio 2019 and written in C#. This application has three get methods:  
 
