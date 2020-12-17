@@ -20,6 +20,7 @@ In honor of the late great Kobe Bryant I decided to create a Kobe Bryant API for
 
 #### 2) Controller  
 - KobeController  
+
 #### 3) Data  
 - DBContext present and properly configured  
 - DB Tables for each entity model (DbSet<Kobe>)  
